@@ -1,7 +1,15 @@
-const Header = () => {
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+  
+} from "react-router-dom";const Header = () => {
     return (
       <div className="header">
-    <h1>UseEffectHook</h1>
+   <Link to={'/'}> <h1 style={{color: "white",cursor:"pointer"}}>Home</h1></Link>
+   <Link to={'/about'}> <h1 style={{color: "white",cursor:"pointer"}}>About</h1></Link>
+   <Link to={'/contact'}> <h1 style={{color: "white",cursor:"pointer"}}>Contact</h1></Link>
       </div>
     )
   }
