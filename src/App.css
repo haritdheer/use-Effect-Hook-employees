@@ -1,0 +1,80 @@
+.App {
+  /* text-align: center; */
+  background-color:white;
+  /* color: white; */
+  min-height: 100vh;
+
+}
+
+.footer{
+  background-color: blue;
+}
+
+
+
+
+h1{
+  margin: 0;
+}
+.header{
+  background-color: rgb(12, 12, 119);
+  padding: auto;
+  text-align: center;
+  color: white;
+}
+
+/* .dtl{
+  background-color: gainsboro;
+  color: black;
+  border: 1px solid gray;
+  padding: 3px;
+  font-weight: bold;
+  text-align: start;
+  width: 19%;
+  margin-top: 14px;
+ 
+} */
+
+.dtl{
+  display: flex;
+  width: 95%;
+  justify-content:space-between;
+  padding: 5px;
+  margin-left: 2vh;
+  margin-right: 5px;
+}
+
+.main{
+  justify-content: center;
+ display: flex;
+ padding: 14px;
+  flex-wrap: wrap;
+  height: 90vh;
+ flex-direction: column;
+  align-items: center;
+}
+
+/* .movie img{
+  height: 250px;
+  width: 100%;
+} */
+
+.btn{
+  background-color: blue ;
+  color: aliceblue;
+  padding: 10px;
+  margin: 10px;
+ width: 100px;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+.heading{
+  color: black;
+  font-size: 80px;
+  margin: 10px;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
