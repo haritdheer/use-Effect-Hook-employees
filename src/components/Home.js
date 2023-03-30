@@ -1,5 +1,7 @@
 import React,{useState,useEffect} from 'react'
 
+import { Link,Outlet } from 'react-router-dom';
+
  const Home = () => {
     const[state,setState]=useState(2);
     const[data,setData]=useState([]);
@@ -23,14 +25,16 @@ import React,{useState,useEffect} from 'react'
     {
       data.map((e,index)=>{
         return(
-          <div className='dtl' key={index}>
+         <Link to={`/${e.id}`}> <div className='dtl' key={index}>
             <h4>{e.firstName}</h4>
             <h4>{e.lastName}</h4>
             <h4>{e.email}</h4>
-          </div>
+          </div></Link>
         )
       })
-    }</div>
+    }
+    <Outlet/>
+    </div>
   )
 }
 export default Home

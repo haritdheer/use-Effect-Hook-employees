@@ -20,6 +20,8 @@ h1{
   background-color: rgb(12, 12, 119);
   padding: auto;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
   color: white;
 }
 
